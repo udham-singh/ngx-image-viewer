@@ -14,7 +14,7 @@ It is a fork of [ngx-image-viewer](https://www.npmjs.com/package/ngx-image-viewe
 
 ## DEMO
 
-https://angular-2wrbwp.stackblitz.io/
+https://ngx-image-viewer.stackblitz.io
 
 ---
 
