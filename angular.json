@@ -28,7 +28,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "./node_modules/font-awesome/css/font-awesome.min.css"
             ],
             "scripts": []
           },
@@ -120,6 +121,46 @@
             "production": {
               "devServerTarget": "ImageViewerDemo:serve:production"
             }
+          }
+        }
+      }
+    },
+    "ngx-imageviewer": {
+      "projectType": "library",
+      "root": "projects/ngx-imageviewer",
+      "sourceRoot": "projects/ngx-imageviewer/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/ngx-imageviewer/tsconfig.lib.json",
+            "project": "projects/ngx-imageviewer/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ngx-imageviewer/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ngx-imageviewer/src/test.ts",
+            "tsConfig": "projects/ngx-imageviewer/tsconfig.spec.json",
+            "karmaConfig": "projects/ngx-imageviewer/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/ngx-imageviewer/tsconfig.lib.json",
+              "projects/ngx-imageviewer/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
           }
         }
       }

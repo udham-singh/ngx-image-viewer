@@ -1,0 +1,24 @@
+{
+  "name": "@udhsin/ngx-image-viewer",
+  "version": "1.0.2",
+  "license": "MIT",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "packagr": "ng-packagr -p ng-package.json"
+  },
+  "peerDependencies": {
+    "@angular/common": ">=2.0.0",
+    "@angular/core": ">=2.0.0"
+  },
+  "dependencies": {
+    "tslib": "^1.10.0"
+  },
+  "repository": {
+    "url": "https://github.com/jpilfold/ngx-image-viewer"
+  }
+}
