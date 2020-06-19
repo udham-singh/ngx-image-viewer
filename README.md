@@ -1,11 +1,11 @@
 # NgxImageViewer
 
-A configurable Angular image viewer component, compatible with Angular 2.x, 4.x and 5.x.
+A configurable Angular image viewer component, compatible with Angular 2+
 
 It is a fork of [ngx-image-viewer](https://www.npmjs.com/package/ngx-image-viewer) which resolves the [screenfull issue](https://github.com/jpilfold/ngx-image-viewer/issues/29) in the original package.
 
 ## Features:
- * Compatible with Angular 2.x, 4.x and 5.x
+ * Compatible with Angular 2+
  * Configurable
  * Rotate image
  * Zoom image
