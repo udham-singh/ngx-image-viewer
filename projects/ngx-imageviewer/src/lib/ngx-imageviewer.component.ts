@@ -17,6 +17,7 @@ const DEFAULT_CONFIG: ImageViewerConfig = {
   wheelZoom: false,
   allowFullscreen: true,
   allowKeyboardNavigation: true,
+  alignCenter: true,
   btnShow: {
     zoomIn: true,
     zoomOut: true,

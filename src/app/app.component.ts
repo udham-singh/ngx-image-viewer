@@ -15,6 +15,7 @@ export class AppComponent {
   images = [
     'https://i.ytimg.com/vi/nlYlNF30bVg/hqdefault.jpg',
     'https://www.askideas.com/media/10/Funny-Goat-Closeup-Pouting-Face.jpg',
+    'https://via.placeholder.com/150/0000FF/808080',
   ];
   config: ImageViewerConfig = {
     customBtns: [

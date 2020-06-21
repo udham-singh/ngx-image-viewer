@@ -1,6 +1,7 @@
 <div
   [ngxToggleFullscreen]="fullscreen"
   class="img-container"
+  [ngClass]="{'align-center': config.alignCenter}"
   [style.backgroundColor]="config.containerBackgroundColor"
   (wheel)="scrollZoom($event)"
   (dragover)="onDragOver($event)"
