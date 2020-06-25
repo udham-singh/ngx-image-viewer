@@ -69,6 +69,7 @@ The configuration object is structured as below. All values are optional, and if
   wheelZoom: true, // If true, the mouse wheel can be used to zoom in
   allowFullscreen: true, // If true, the fullscreen button will be shown, allowing the user to entr fullscreen mode
   allowKeyboardNavigation: true, // If true, the left / right arrow keys can be used for navigation
+  alignCenter: true, // If true, it aligns the image to center both horizontally and vertically
   btnIcons: { // The icon classes that will apply to the buttons. By default, font-awesome is used.
     zoomIn: 'fa fa-plus',
     zoomOut: 'fa fa-minus',
